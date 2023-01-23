@@ -741,5 +741,27 @@ html {
   background: #FCFCFC;
 }
 .modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+border: 1px solid red;
+ width: 24px;
+  height: 24px;
+border-radius:50%;
+  background-color: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
 }
-.modal-close-btn-icon{}
+.modal-close-btn:hover,
+.modal-close-btn:focus{
+  background: #404BBF;
+  fill:var(--active-text-color) ;
+
+}
+.modal-close-btn-icon{
+ 
+}
