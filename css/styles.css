@@ -92,14 +92,14 @@ html {
   transition: color var(--transition-cubic);
   position: relative;
 }
-.header-link.current::after{
-  content:" " ;
+.header-link.current::after {
+  content: " ";
   position: absolute;
   width: 100%;
   height: 4px;
   background-color: var(--pressed-state-color);
   left: 0;
-  bottom:0;
+  bottom: 0;
   border-radius: 2px;
   margin: 0;
 }
@@ -463,10 +463,8 @@ html {
   text-align: center;
   border: 1px solid var(--accent-color);
 
-  transition: background var(--transition-cubic),
-    color var(--transition-cubic),
-    box-shadow var(--transition-cubic),
-    border var(--transition-cubic);
+  transition: background var(--transition-cubic), color var(--transition-cubic),
+    box-shadow var(--transition-cubic), border var(--transition-cubic);
 }
 
 .caption-btn-first {
@@ -484,8 +482,7 @@ html {
   min-width: 68px;
   text-align: center;
   border: 1px solid transparent var(--primary-brand-color);
-  transition: box-shadow var(--transition-cubic),
-    border var(--transition-cubic);
+  transition: box-shadow var(--transition-cubic), border var(--transition-cubic);
 }
 .caption-btn:hover,
 .caption-btn:focus {
@@ -742,9 +739,10 @@ html {
   width: 100%;
   height: 100%;
   background: rgba(46, 47, 66, 0.4);
-  transition: opacity var(--transition-cubic), visibility var(--transition-cubic);
+  transition: opacity var(--transition-cubic),
+    visibility var(--transition-cubic);
 }
-.backdrop.is-hidden{
+.backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
